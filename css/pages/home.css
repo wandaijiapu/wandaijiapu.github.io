@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.home .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+}
+.home .logo img {
+  width: 50px;
+  height: 50px;
+}
+.home .main {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.home .main .info {
+  line-height: 34px;
+  font-family: cursive;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  margin: 0 20px;
+}
+.home .main .qrcode {
+  text-align: center;
+}
+.home .main .qrcode img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
